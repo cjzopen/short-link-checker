@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>短網址分析工具</title>
+  <meta name="description" content="讓短網址原型畢露，不再害怕點擊不明短網址。">
+</head>
+<body>
+<style>
+body{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background-color: #dedede;
+  color:#343;
+}
+#all{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+</style>
+  <h1>短網址分析工具</h1>
+  <p>協助你查看短網址的目的地，順便過濾掉常見的網址追蹤參數。</p>
+  <div>
+    <label for="short-url">輸入短網址：</label>
+    <input type="text" id="short-url" placeholder="例如：https://bit.ly/3xyz">
+    <button id="analyze-btn">分析</button>
+  </div>
+  <div id="result">
+    <!-- 結果將顯示在這裡 -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
